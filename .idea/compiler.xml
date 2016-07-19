@@ -25,5 +25,8 @@
         <module name="nica-scanner" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="nica-scanner" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
