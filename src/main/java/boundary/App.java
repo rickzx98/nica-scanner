@@ -6,6 +6,9 @@ import control.ui.SetUILookAndFeel;
 import javax.swing.*;
 
 public class App {
+
+    private static final CreateAppUI createAppUI = new CreateAppUI();
+
     public static void main(String... args) {
         /* Use an appropriate Look and Feel */
         try {
@@ -24,7 +27,7 @@ public class App {
 
         SwingUtilities.invokeLater(new Runnable() {
             public void run() {
-                new CreateAppUI().execute();
+                createAppUI.execute();
             }
         });
     }

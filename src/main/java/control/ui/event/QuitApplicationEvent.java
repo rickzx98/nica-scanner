@@ -1,5 +1,8 @@
 package control.ui.event;
 
+import control.ui.common.CreateYesNoConfirmDialog;
+import control.ui.common.GetAppProperty;
+
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -22,7 +25,12 @@ public class QuitApplicationEvent implements ActionListener {
     }
 
     public void actionPerformed(ActionEvent e) {
-        tray.remove(trayIcon);
-        System.exit(0);
+        int result = new CreateYesNoConfirmDialog().execute(new GetAppProperty().execute("TITLE_QUIT"), new GetAppProperty().execute("MESSAGE_QUIT"), new String[]{
+                new GetAppProperty().execute("LABEL_YES"),
+                new GetAppProperty().execute("LABEL_NO")
+        });
+        if (result == 0) {
+            tray.remove(trayIcon);
+        }
     }
 }
