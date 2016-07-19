@@ -1,6 +1,5 @@
 package com.gds.BarcodeScanner.control;
 
-import com.gds.Common.control.GetAppProperty;
 import jpos.util.JposPropertiesConst;
 
 /**

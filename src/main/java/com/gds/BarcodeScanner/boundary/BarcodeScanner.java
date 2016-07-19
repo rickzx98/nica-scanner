@@ -1,9 +1,6 @@
 package com.gds.BarcodeScanner.boundary;
 
-import com.gds.BarcodeScanner.control.InitDllLibraries;
-import com.gds.BarcodeScanner.control.GetScannerInstance;
-import com.gds.BarcodeScanner.control.OpenScanner;
-import com.gds.BarcodeScanner.control.SetJposFilePath;
+import com.gds.BarcodeScanner.control.*;
 import com.gds.BarcodeScanner.control.listeners.CreateScannerDataListener;
 import jpos.Scanner;
 
@@ -18,6 +15,8 @@ public class BarcodeScanner {
         Scanner scanner = new GetScannerInstance().execute();
         scanner.addDataListener(new CreateScannerDataListener().execute());
         new OpenScanner().execute(scanner);
+        new ClaimScanner().execute(scanner);
+        new EnableScanner().execute(scanner);
     }
 
 }
