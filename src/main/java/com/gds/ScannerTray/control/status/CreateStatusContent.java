@@ -1,5 +1,6 @@
 package com.gds.ScannerTray.control.status;
 
+import com.gds.BarcodeScanner.control.GetBarcodeScannerTypeName;
 import com.gds.BarcodeScanner.control.GetScannerInstance;
 import com.gds.Common.control.GetAppProperty;
 import com.gds.Common.control.GetErrorLogger;

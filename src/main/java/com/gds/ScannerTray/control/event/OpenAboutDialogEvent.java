@@ -1,20 +1,20 @@
 package com.gds.ScannerTray.control.event;
 
-import com.gds.ScannerTray.control.status.GetStatusDialog;
+import com.gds.ScannerTray.control.about.GetAboutDialog;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 /**
- * Created by rickzx98 on 19/07/2016.
+ * Created by rickzx98 on 21/07/2016.
  */
-public class OpenStatusDialogEvent {
+public class OpenAboutDialogEvent {
 
     public ActionListener execute() {
         return new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                new GetStatusDialog().execute();
+                new GetAboutDialog().execute();
             }
         };
     }

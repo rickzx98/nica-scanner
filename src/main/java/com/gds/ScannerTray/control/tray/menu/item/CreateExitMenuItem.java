@@ -21,7 +21,7 @@ public class CreateExitMenuItem {
     private MenuItem createMenuItem() {
         MenuItem menuItem = new MenuItem();
         menuItem.setLabel(new GetAppProperty().execute("LABEL_EXIT"));
-        menuItem.addActionListener(new QuitApplicationEvent(systemTray, trayIcon));
+        menuItem.addActionListener(new QuitApplicationEvent().execute(systemTray, trayIcon));
         return menuItem;
     }
 }

@@ -16,6 +16,7 @@ public class EnableScanner {
         try {
             scanner.setDeviceEnabled(Boolean.TRUE);
             scanner.setDataEventEnabled(Boolean.TRUE);
+            scanner.setDecodeData(Boolean.TRUE);
             infoLogger.execute(EnableScanner.class, "Scanner enabled", null);
         } catch (JposException e) {
             errorLogger.execute(EnableScanner.class, e.getMessage(), e);
