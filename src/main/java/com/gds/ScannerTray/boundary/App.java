@@ -29,8 +29,10 @@ public class App {
 
         SwingUtilities.invokeLater(new Runnable() {
             public void run() {
-                barcodeScanner.start();
-                createAppUI.execute();
+                boolean created = createAppUI.execute();
+                if (created) {
+                    barcodeScanner.start();
+                }
             }
         });
     }

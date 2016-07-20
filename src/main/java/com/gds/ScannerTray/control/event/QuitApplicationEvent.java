@@ -2,6 +2,7 @@ package com.gds.ScannerTray.control.event;
 
 import com.gds.ScannerTray.control.common.CreateYesNoConfirmDialog;
 import com.gds.Common.control.GetAppProperty;
+import com.gds.ScannerTray.control.lifecyle.InitOnQuit;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -31,6 +32,7 @@ public class QuitApplicationEvent implements ActionListener {
         });
         if (result == 0) {
             tray.remove(trayIcon);
+            new InitOnQuit().execute();
         }
     }
 }

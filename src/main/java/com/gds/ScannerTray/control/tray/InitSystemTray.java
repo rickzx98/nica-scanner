@@ -6,12 +6,17 @@ import java.awt.*;
  * Created by rickzx98 on 19/07/2016.
  */
 public class InitSystemTray {
+    private static SystemTray systemTray;
 
-    public void execute() {
-        SystemTray systemTray = createSystemTray();
-        if (systemTray != null) {
-            addSystemTrayIcon(systemTray);
+    public boolean execute() {
+        boolean create = systemTray == null;
+        if (create) {
+            systemTray = createSystemTray();
+            if (systemTray != null) {
+                addSystemTrayIcon(systemTray);
+            }
         }
+        return create;
     }
 
     private SystemTray createSystemTray() {

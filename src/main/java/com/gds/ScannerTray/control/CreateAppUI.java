@@ -7,8 +7,8 @@ import com.gds.ScannerTray.control.tray.InitSystemTray;
  */
 public class CreateAppUI {
 
-    public void execute() {
-        new InitSystemTray().execute();
+    public boolean execute() {
+        return new InitSystemTray().execute();
     }
 
 }

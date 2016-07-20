@@ -19,4 +19,10 @@ public class BarcodeScanner {
         new EnableScanner().execute(scanner);
     }
 
+    public void stop() {
+        Scanner scanner = new GetScannerInstance().execute();
+        new DisableScanner().execute(scanner);
+        new ReleaseScanner().execute(scanner);
+    }
+
 }
