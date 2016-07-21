@@ -1,6 +1,7 @@
 package com.gds.ScannerTray.control.common;
 
 import javax.swing.*;
+import java.awt.*;
 
 /**
  * Created by rickzx98 on 19/07/2016.
@@ -11,7 +12,8 @@ public class CreateLabel {
     }
 
     private JLabel createLabel(String label) {
-        JLabel labell = new JLabel(label);
-        return labell;
+        JLabel jLabel = new JLabel(label);
+        jLabel.setFont(new Font("Arial", Font.PLAIN, 11));
+        return jLabel;
     }
 }

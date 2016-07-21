@@ -1,8 +1,6 @@
 package com.gds.ScannerTray.control.tray.menu;
 
-import com.gds.ScannerTray.control.tray.menu.item.CreateAboutMenuItem;
-import com.gds.ScannerTray.control.tray.menu.item.CreateExitMenuItem;
-import com.gds.ScannerTray.control.tray.menu.item.CreateScannerStatusMenuItem;
+import com.gds.ScannerTray.control.tray.menu.item.*;
 
 import java.awt.*;
 
@@ -21,7 +19,9 @@ public class CreateTrayMenu {
 
     private PopupMenu createPopupMenu() {
         PopupMenu popupMenu = new PopupMenu();
+        popupMenu.add(new CreateSwitchMenuItem().execute());
         popupMenu.add(new CreateScannerStatusMenuItem().execute());
+        popupMenu.add(new CreateRefreshMenuItem().execute());
         popupMenu.add(new CreateAboutMenuItem().execute());
         popupMenu.addSeparator();
         popupMenu.add(new CreateExitMenuItem().execute(systemTray, trayIcon));

@@ -19,7 +19,6 @@ public class GetAboutDialog {
             Container aboutContent = new CreateAboutContent().execute();
             dialog = createJDialog.execute(new GetAppProperty().execute("TITLE_DIALOG_ABOUT"), null, aboutContent);
             dialog.setSize(620, 180);
-            dialog.setResizable(Boolean.FALSE);
         }
         if (!dialog.isVisible()) {
             dialog.setVisible(Boolean.TRUE);

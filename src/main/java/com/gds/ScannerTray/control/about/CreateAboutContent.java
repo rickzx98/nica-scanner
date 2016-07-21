@@ -1,7 +1,6 @@
 package com.gds.ScannerTray.control.about;
 
 import com.gds.Common.control.GetAppProperty;
-import com.gds.Common.control.GetErrorLogger;
 import com.gds.ScannerTray.control.common.*;
 
 import javax.swing.*;
@@ -11,10 +10,7 @@ import java.awt.*;
  * Created by rickzx98 on 21/07/2016.
  */
 public class CreateAboutContent {
-    private final GetErrorLogger errorLogger = new GetErrorLogger();
     private final GetAppProperty appProperty = new GetAppProperty();
-    private final SetValueLabelProperties setValueLabelProperties = new SetValueLabelProperties();
-    private final SetFormLabelProperties setFormLabelProperties = new SetFormLabelProperties();
 
     public Container execute() {
         Container statusContent = createStatusContent();
