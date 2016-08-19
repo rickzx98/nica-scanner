@@ -11,3 +11,4 @@ set NS_APP=%NS_BIN_DIR%\nica-scanner.jar
 set SCANNER_DLL_64=CSJPOSScanner64
 set JPOS_XML_FILE=%JPOS%
 set GDS_BS_LOG_PATH=%NS_LOGS_DIR%
+set GDS_SCANNER_URL=https://gds-ms-api.herokuapp.com/gds/scanner/check-in
