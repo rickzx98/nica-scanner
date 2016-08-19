@@ -1,15 +1,25 @@
 package com.gds.ScannerTray.control.status;
 
-import com.gds.BarcodeScanner.control.GetBarcodeScannerTypeName;
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Container;
+import java.awt.GridLayout;
+
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
 import com.gds.BarcodeScanner.control.GetScannerInstance;
 import com.gds.Common.control.GetAppProperty;
 import com.gds.Common.control.GetErrorLogger;
-import com.gds.ScannerTray.control.common.*;
+import com.gds.ScannerTray.control.common.CreateJPanel;
+import com.gds.ScannerTray.control.common.CreateLabel;
+import com.gds.ScannerTray.control.common.GetStatusRunningColor;
+import com.gds.ScannerTray.control.common.GetTrayIconPNG;
+import com.gds.ScannerTray.control.common.SetFormLabelProperties;
+import com.gds.ScannerTray.control.common.SetValueLabelProperties;
+
 import jpos.JposException;
 import jpos.Scanner;
-
-import javax.swing.*;
-import java.awt.*;
 
 /**
  * Created by rickzx98 on 20/07/2016.

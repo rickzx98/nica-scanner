@@ -1,9 +1,10 @@
 package com.gds.ScannerTray.control.tray;
 
+import java.awt.SystemTray;
+import java.awt.TrayIcon;
+
 import com.gds.Common.control.GetAppProperty;
 import com.gds.ScannerTray.control.tray.menu.CreateTrayMenu;
-
-import java.awt.*;
 
 /**
  * Created by rickzx98 on 19/07/2016.

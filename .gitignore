@@ -5,3 +5,4 @@ target
 .idea/workspace.xml
 target/
 *.log
+/bin/

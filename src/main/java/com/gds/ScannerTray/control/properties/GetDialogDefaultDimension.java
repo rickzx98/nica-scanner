@@ -1,6 +1,6 @@
 package com.gds.ScannerTray.control.properties;
 
-import java.awt.*;
+import java.awt.Dimension;
 
 /**
  * Created by rickzx98 on 20/07/2016.

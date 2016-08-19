@@ -1,7 +1,7 @@
 package com.gds.BarcodeScanner.control;
 
-import com.gds.Common.control.GetErrorLogger;
-import com.gds.Common.control.GetInfoLogger;
+import java.io.IOException;
+
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpPost;
@@ -10,7 +10,8 @@ import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.json.JSONObject;
 
-import java.io.IOException;
+import com.gds.Common.control.GetErrorLogger;
+import com.gds.Common.control.GetInfoLogger;
 
 /**
  * Created by rickzx98 on 28/07/2016.

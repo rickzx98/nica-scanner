@@ -1,0 +1,13 @@
+@echo off
+set NS_ROOT_DIR=\nica-scanner
+set NS_LOGS_DIR=%NS_ROOT_DIR%\logs
+set NS_BIN_DIR=%NS_ROOT_DIR%\bin
+set NS_JPOS_DIR=%NS_BIN_DIR%\jpos\res
+set NS_LIB_DIR=%NS_BIN_DIR%\nica-scanner_lib
+set NS_DLL_DIR=%NS_BIN_DIR%\dll
+set NS_ICON_DIR=%NS_BIN_DIR%\icon
+set JPOS=%NS_JPOS_DIR%\jpos.xml
+set NS_APP=%NS_BIN_DIR%\nica-scanner.jar
+set SCANNER_DLL_64=CSJPOSScanner64
+set JPOS_XML_FILE=%JPOS%
+set GDS_BS_LOG_PATH=%NS_LOGS_DIR%

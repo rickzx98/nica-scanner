@@ -3,6 +3,7 @@ package com.gds.BarcodeScanner.control;
 import com.gds.Common.control.GetAppProperty;
 import com.gds.Common.control.GetErrorLogger;
 import com.gds.Common.control.GetInfoLogger;
+
 import jpos.JposException;
 import jpos.Scanner;
 

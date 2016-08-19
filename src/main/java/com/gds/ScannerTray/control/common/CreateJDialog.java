@@ -1,10 +1,12 @@
 package com.gds.ScannerTray.control.common;
 
+import java.awt.Component;
+import java.awt.Container;
+
+import javax.swing.JDialog;
+
 import com.gds.ScannerTray.control.properties.GetDialogDefaultDimension;
 import com.gds.ScannerTray.control.tray.GetTrayImageIcon;
-
-import javax.swing.*;
-import java.awt.*;
 
 /**
  * Created by rickzx98 on 20/07/2016.

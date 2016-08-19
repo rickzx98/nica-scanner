@@ -1,6 +1,6 @@
 package com.gds.ScannerTray.control.common;
 
-import javax.swing.*;
+import javax.swing.JLabel;
 
 /**
  * Created by rickzx98 on 21/07/2016.

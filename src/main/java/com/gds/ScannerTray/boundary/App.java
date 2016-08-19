@@ -1,10 +1,11 @@
 package com.gds.ScannerTray.boundary;
 
+import javax.swing.SwingUtilities;
+import javax.swing.UnsupportedLookAndFeelException;
+
 import com.gds.BarcodeScanner.boundary.BarcodeScanner;
 import com.gds.ScannerTray.control.CreateAppUI;
 import com.gds.ScannerTray.control.SetUILookAndFeel;
-
-import javax.swing.*;
 
 public class App {
 

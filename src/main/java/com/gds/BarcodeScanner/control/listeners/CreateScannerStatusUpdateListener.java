@@ -4,6 +4,7 @@ import com.gds.BarcodeScanner.control.ClaimScanner;
 import com.gds.BarcodeScanner.control.EnableScanner;
 import com.gds.Common.control.GetErrorLogger;
 import com.gds.Common.control.GetInfoLogger;
+
 import jpos.JposException;
 import jpos.Scanner;
 import jpos.events.StatusUpdateEvent;

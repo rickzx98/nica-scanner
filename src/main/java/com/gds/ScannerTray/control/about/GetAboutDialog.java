@@ -1,11 +1,11 @@
 package com.gds.ScannerTray.control.about;
 
+import java.awt.Container;
+
+import javax.swing.JDialog;
+
 import com.gds.Common.control.GetAppProperty;
 import com.gds.ScannerTray.control.common.CreateJDialog;
-import com.gds.ScannerTray.control.status.CreateStatusContent;
-
-import javax.swing.*;
-import java.awt.*;
 
 /**
  * Created by rickzx98 on 21/07/2016.

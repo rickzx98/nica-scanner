@@ -1,8 +1,14 @@
 package com.gds.ScannerTray.control.tray.menu;
 
-import com.gds.ScannerTray.control.tray.menu.item.*;
+import java.awt.PopupMenu;
+import java.awt.SystemTray;
+import java.awt.TrayIcon;
 
-import java.awt.*;
+import com.gds.ScannerTray.control.tray.menu.item.CreateAboutMenuItem;
+import com.gds.ScannerTray.control.tray.menu.item.CreateExitMenuItem;
+import com.gds.ScannerTray.control.tray.menu.item.CreateRefreshMenuItem;
+import com.gds.ScannerTray.control.tray.menu.item.CreateScannerStatusMenuItem;
+import com.gds.ScannerTray.control.tray.menu.item.CreateSwitchMenuItem;
 
 /**
  * Created by rickzx98 on 19/07/2016.

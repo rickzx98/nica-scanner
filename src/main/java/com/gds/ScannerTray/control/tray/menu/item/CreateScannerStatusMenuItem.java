@@ -1,9 +1,9 @@
 package com.gds.ScannerTray.control.tray.menu.item;
 
+import java.awt.MenuItem;
+
 import com.gds.Common.control.GetAppProperty;
 import com.gds.ScannerTray.control.event.OpenStatusDialogEvent;
-
-import java.awt.*;
 
 /**
  * Created by rickzx98 on 19/07/2016.

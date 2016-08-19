@@ -1,7 +1,6 @@
 package com.gds.ScannerLogger.boundary;
 
 import com.gds.ScannerLogger.control.WriteScannedData;
-import jpos.Scanner;
 
 /**
  * Created by rickzx98 on 21/07/2016.

@@ -6,11 +6,11 @@ import com.gds.BarcodeScanner.control.SendBarcodeToCheckIn;
 import com.gds.Common.control.GetErrorLogger;
 import com.gds.Common.control.GetInfoLogger;
 import com.gds.ScannerLogger.boundary.ScannerLogger;
+
 import jpos.JposException;
 import jpos.Scanner;
 import jpos.events.DataEvent;
 import jpos.events.DataListener;
-import org.apache.log4j.Logger;
 
 /**
  * Created by rickzx98 on 20/07/2016.

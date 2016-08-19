@@ -1,6 +1,7 @@
 package com.gds.BarcodeScanner.control.listeners;
 
 import com.gds.Common.control.GetErrorLogger;
+
 import jpos.events.ErrorEvent;
 import jpos.events.ErrorListener;
 

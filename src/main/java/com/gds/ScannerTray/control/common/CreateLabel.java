@@ -1,7 +1,8 @@
 package com.gds.ScannerTray.control.common;
 
-import javax.swing.*;
-import java.awt.*;
+import java.awt.Font;
+
+import javax.swing.JLabel;
 
 /**
  * Created by rickzx98 on 19/07/2016.

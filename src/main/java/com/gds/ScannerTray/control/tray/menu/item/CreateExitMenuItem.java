@@ -1,9 +1,11 @@
 package com.gds.ScannerTray.control.tray.menu.item;
 
+import java.awt.MenuItem;
+import java.awt.SystemTray;
+import java.awt.TrayIcon;
+
 import com.gds.Common.control.GetAppProperty;
 import com.gds.ScannerTray.control.event.QuitApplicationEvent;
-
-import java.awt.*;
 
 /**
  * Created by rickzx98 on 19/07/2016.

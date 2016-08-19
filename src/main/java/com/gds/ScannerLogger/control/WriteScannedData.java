@@ -1,10 +1,9 @@
 package com.gds.ScannerLogger.control;
 
-import com.gds.Common.control.GetErrorLogger;
-
-import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+
+import com.gds.Common.control.GetErrorLogger;
 
 /**
  * Created by rickzx98 on 21/07/2016.

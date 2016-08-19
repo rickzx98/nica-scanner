@@ -1,9 +1,9 @@
 package com.gds.ScannerTray.control.tray;
 
-import com.gds.ScannerTray.control.common.CreateImageIcon;
-import com.gds.Common.control.GetAppProperty;
+import java.awt.Image;
 
-import java.awt.*;
+import com.gds.Common.control.GetAppProperty;
+import com.gds.ScannerTray.control.common.CreateImageIcon;
 
 /**
  * Created by rickzx98 on 19/07/2016.

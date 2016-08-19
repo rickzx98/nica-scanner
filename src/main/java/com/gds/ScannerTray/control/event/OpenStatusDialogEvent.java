@@ -1,9 +1,9 @@
 package com.gds.ScannerTray.control.event;
 
-import com.gds.ScannerTray.control.status.GetStatusDialog;
-
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+
+import com.gds.ScannerTray.control.status.GetStatusDialog;
 
 /**
  * Created by rickzx98 on 19/07/2016.

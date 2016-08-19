@@ -1,10 +1,11 @@
 package com.gds.ScannerTray.control.common;
 
+import java.awt.Image;
+
+import javax.swing.ImageIcon;
+
 import com.gds.Common.control.GetAppProperty;
 import com.gds.Common.control.GetErrorLogger;
-
-import javax.swing.*;
-import java.awt.*;
 
 /**
  * Created by rickzx98 on 21/07/2016.

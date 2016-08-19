@@ -1,6 +1,6 @@
 package com.gds.ScannerTray.control.common;
 
-import java.awt.*;
+import java.awt.Color;
 
 /**
  * Created by rickzx98 on 21/07/2016.

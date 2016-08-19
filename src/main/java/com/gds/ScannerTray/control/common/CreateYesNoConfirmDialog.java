@@ -1,6 +1,6 @@
 package com.gds.ScannerTray.control.common;
 
-import javax.swing.*;
+import javax.swing.JOptionPane;
 
 /**
  * Created by rickzx98 on 19/07/2016.

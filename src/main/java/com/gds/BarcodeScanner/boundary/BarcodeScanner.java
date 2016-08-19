@@ -1,15 +1,19 @@
 package com.gds.BarcodeScanner.boundary;
 
-import com.gds.BarcodeScanner.control.*;
+import com.gds.BarcodeScanner.control.ClaimScanner;
+import com.gds.BarcodeScanner.control.DisableScanner;
+import com.gds.BarcodeScanner.control.EnableScanner;
+import com.gds.BarcodeScanner.control.GetScannerInstance;
+import com.gds.BarcodeScanner.control.InitDllLibraries;
+import com.gds.BarcodeScanner.control.OpenScanner;
+import com.gds.BarcodeScanner.control.ReleaseScanner;
+import com.gds.BarcodeScanner.control.SetJposFilePath;
 import com.gds.BarcodeScanner.control.listeners.CreateScannerDataListener;
 import com.gds.BarcodeScanner.control.listeners.CreateScannerDirectIOListener;
 import com.gds.BarcodeScanner.control.listeners.CreateScannerErrorListener;
 import com.gds.BarcodeScanner.control.listeners.CreateScannerStatusUpdateListener;
+
 import jpos.Scanner;
-import jpos.events.DirectIOEvent;
-import jpos.events.DirectIOListener;
-import jpos.events.StatusUpdateEvent;
-import jpos.events.StatusUpdateListener;
 
 /**
  * Created by rickzx98 on 20/07/2016.

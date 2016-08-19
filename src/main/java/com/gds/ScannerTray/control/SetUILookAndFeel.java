@@ -1,6 +1,7 @@
 package com.gds.ScannerTray.control;
 
-import javax.swing.*;
+import javax.swing.UIManager;
+import javax.swing.UnsupportedLookAndFeelException;
 
 public class SetUILookAndFeel {
     public void execute() throws ClassNotFoundException, UnsupportedLookAndFeelException, InstantiationException, IllegalAccessException {

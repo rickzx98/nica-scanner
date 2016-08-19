@@ -1,12 +1,13 @@
 package com.gds.ScannerTray.control.event;
 
-import com.gds.ScannerTray.control.common.CreateYesNoConfirmDialog;
-import com.gds.Common.control.GetAppProperty;
-import com.gds.ScannerTray.control.lifecyle.InitOnQuit;
-
-import java.awt.*;
+import java.awt.SystemTray;
+import java.awt.TrayIcon;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+
+import com.gds.Common.control.GetAppProperty;
+import com.gds.ScannerTray.control.common.CreateYesNoConfirmDialog;
+import com.gds.ScannerTray.control.lifecyle.InitOnQuit;
 
 /**
  * Created by rickzx98 on 19/07/2016.

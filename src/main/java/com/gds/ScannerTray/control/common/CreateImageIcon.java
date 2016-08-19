@@ -1,10 +1,11 @@
 package com.gds.ScannerTray.control.common;
 
-import com.gds.ScannerTray.boundary.App;
-
-import javax.swing.*;
-import java.awt.*;
+import java.awt.Image;
 import java.net.URL;
+
+import javax.swing.ImageIcon;
+
+import com.gds.ScannerTray.boundary.App;
 
 /**
  * Created by rickzx98 on 19/07/2016.

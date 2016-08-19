@@ -1,11 +1,9 @@
 package com.gds.ScannerTray.control.tray.menu.item;
 
-import com.gds.Common.control.GetAppProperty;
-import com.gds.ScannerTray.control.common.GetStoredComponent;
-import com.gds.ScannerTray.control.event.OpenAboutDialogEvent;
-import com.gds.ScannerTray.control.event.SwitchEvent;
+import java.awt.MenuItem;
 
-import java.awt.*;
+import com.gds.ScannerTray.control.common.GetStoredComponent;
+import com.gds.ScannerTray.control.event.SwitchEvent;
 
 /**
  * Created by rickzx98 on 21/07/2016.

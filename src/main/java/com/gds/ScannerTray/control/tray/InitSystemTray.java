@@ -1,6 +1,7 @@
 package com.gds.ScannerTray.control.tray;
 
-import java.awt.*;
+import java.awt.AWTException;
+import java.awt.SystemTray;
 
 /**
  * Created by rickzx98 on 19/07/2016.

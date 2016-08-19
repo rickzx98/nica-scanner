@@ -1,10 +1,18 @@
 package com.gds.ScannerTray.control.about;
 
-import com.gds.Common.control.GetAppProperty;
-import com.gds.ScannerTray.control.common.*;
+import java.awt.BorderLayout;
+import java.awt.Container;
+import java.awt.GridLayout;
 
-import javax.swing.*;
-import java.awt.*;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+import com.gds.Common.control.GetAppProperty;
+import com.gds.ScannerTray.control.common.CreateJPanel;
+import com.gds.ScannerTray.control.common.CreateLabel;
+import com.gds.ScannerTray.control.common.GetGDSIcon;
+import com.gds.ScannerTray.control.common.GetTrayIconPNG;
+import com.gds.ScannerTray.control.common.SetFormLabelProperties;
 
 /**
  * Created by rickzx98 on 21/07/2016.
