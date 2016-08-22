@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\rickzx98\gds-lib-project\nica-scanner\installer\nica-scanner.jar</jar>
+  <outfile>C:\Users\rickzx98\gds-lib-project\nica-scanner\installer\nica-scanner.exe</outfile>
+  <errTitle>Java is required</errTitle>
+  <cmdLine>-Djava.library.path=%NS_DLL_DIR% %NS_APP%</cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Users\rickzx98\gds-lib-project\nica-scanner\installer\icon\bs_tray_128.ico</icon>
+  <var>set NS_ROOT_DIR=\nica-scanner</var>
+  <var>set NS_LOGS_DIR=%NS_ROOT_DIR%\logs</var>
+  <var>set NS_BIN_DIR=%NS_ROOT_DIR%\bin</var>
+  <var>set NS_JPOS_DIR=%NS_BIN_DIR%\jpos\res</var>
+  <var>set NS_LIB_DIR=%NS_BIN_DIR%\nica-scanner_lib</var>
+  <var>set NS_DLL_DIR=%NS_BIN_DIR%\dll</var>
+  <var>set NS_ICON_DIR=%NS_BIN_DIR%\icon</var>
+  <var>set JPOS=%NS_JPOS_DIR%\jpos.xml</var>
+  <var>set NS_APP=%NS_BIN_DIR%\nica-scanner.jar</var>
+  <var>set SCANNER_DLL_64=CSJPOSScanner64</var>
+  <var>set JPOS_XML_FILE=%JPOS%</var>
+  <var>set GDS_BS_LOG_PATH=%NS_LOGS_DIR%</var>
+  <var>set GDS_SCANNER_URL=https://localhost:8080/gds/scanner/check-in</var>
+  <jre>
+    <path></path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>1.7.0</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+  </jre>
+</launch4jConfig>
