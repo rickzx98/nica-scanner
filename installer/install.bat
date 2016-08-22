@@ -20,4 +20,3 @@ copy *.* %NS_BIN_DIR%
 copy jpos.properties %NS_JPOS_DIR%
 copy app.properties %NS_BIN_DIR%
 copy icon\*.* %NS_ICON_DIR%
-sc create nica-scanner type= own start= auto binPath= "C:\nica-scanner\bin\nica-scanner.bat" DisplayName= "GDS Scanner Handler"
